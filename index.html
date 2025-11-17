@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GIF in der Mitte</title>
+<style>
+    /* Den gesamten Viewport (Fenster) nutzen */
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex; /* Flexbox für die Zentrierung */
+        justify-content: center; /* Horizontale Zentrierung */
+        align-items: center; /* Vertikale Zentrierung */
+        background-color: #000; /* Optional: Schwarzer Hintergrund, damit das GIF besser aussieht */
+    }
+
+    /* Das Bild selbst, um sicherzustellen, dass es zentriert ist */
+    img {
+        max-width: 100%; /* Verhindert, dass das Bild den Bildschirm überragt */
+        max-height: 100%;
+    }
+</style>
+</head>
+<body>
+
+<!-- Das gewünschte GIF mit der angegebenen URL -->
+<img src="https://media.tenor.com/El89itaAWsIAAAAi/maxwell.gif">
+
+</body>
+</html>
